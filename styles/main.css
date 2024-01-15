@@ -2,3 +2,16 @@ body {
     font-family:Georgia, 'Times New Roman', Times, serif;
     text-align: center;
 }
+
+#project-cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    grid-gap: .2%;
+    align-items: center;
+}
+
+section {
+    border: 3px ridge rgb(137, 30, 30);
+    border-radius: 8px;
+    box-shadow: 0 3px 6px 0 rgb(66, 50, 50);
+}
