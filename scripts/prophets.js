@@ -10,15 +10,16 @@ document.addEventListener('DOMContentLoaded', () => {
         
     const showProphets = (prophets) => {
         prophets.forEach((prophet) => {
-            const template = document.getElementById('prophet-card');
-            const card = document.importNode(template.content, true);
+            // const prophetContainer = document.getElementById('prphets');
+            let template = document.getElementById('card-template');
+            const card = template.content.cloneNode(true);
 
             card.querySelector('h2').textContent = `${prophet.name} ${prophet.lastname}`;
             card.querySelector('p:nth-of-type(1)').textContent = `Birthdate: ${prophet.birthdate}`;
             card.querySelector('p:nth-of-type(2)').textContent = `Death: ${prophet.death}`;
             card.querySelector('.profile').src = prophet.imageurl;
 
-            document.body.appendChild(card);
+            document.getElementById('prophets').appendChild(card);
         });
     }
 
