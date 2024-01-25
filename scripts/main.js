@@ -3,6 +3,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const pokeapi = document.getElementById('pokeapi');
     const cpForm = document.getElementById('cp-form');
     const submitForm = document.getElementById('submit-form');
+    const formData = document.getElementById('form-data');
 
     prophetSection.addEventListener('click', () => {
         window.location.href = 'prophets.html';
@@ -15,5 +16,8 @@ document.addEventListener('DOMContentLoaded', () => {
     });
     submitForm.addEventListener('click', () => {
         window.location.href = '../form-data/form.html';
+    });
+    formData.addEventListener('click', () => {
+        window.location.href = '../form-data/formdata.html';
     });
 });
