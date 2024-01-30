@@ -4,6 +4,8 @@ document.addEventListener('DOMContentLoaded', () => {
     const cpForm = document.getElementById('cp-form');
     const submitForm = document.getElementById('submit-form');
     const formData = document.getElementById('form-data');
+    const animation = document.getElementById('animation');
+
 
     prophetSection.addEventListener('click', () => {
         window.location.href = 'prophets.html';
