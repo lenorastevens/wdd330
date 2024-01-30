@@ -17,12 +17,12 @@ document.addEventListener('DOMContentLoaded', () => {
         window.location.href = 'https://codepen.io/Lenora-Stevens/pen/Babdobp';
     });
     submitForm.addEventListener('click', () => {
-        window.location.href = '../form-data/form.html';
+        window.location.href = 'form.html';
     });
     formData.addEventListener('click', () => {
         window.location.href = 'formdata.html';
     });
     animation.addEventListener('click', () => {
-        window.location.href = '..animation.html';
+        window.location.href = 'animation.html';
     });
 });
