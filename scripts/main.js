@@ -9,7 +9,7 @@ document.addEventListener('DOMContentLoaded', () => {
         window.location.href = 'prophets.html';
     });
     pokeapi.addEventListener('click', () => {
-        window.location.href = '../poke-api/poke.html';
+        window.location.href = 'poke.html';
     });
     cpForm.addEventListener('click', () => {
         window.location.href = 'https://codepen.io/Lenora-Stevens/pen/Babdobp';
@@ -18,9 +18,9 @@ document.addEventListener('DOMContentLoaded', () => {
         window.location.href = '../form-data/form.html';
     });
     formData.addEventListener('click', () => {
-        window.location.href = '../form-data/formdata.html';
+        window.location.href = 'formdata.html';
     });
     animation.addEventListener('click', () => {
-        window.location.href = '../animations/animation.html';
+        window.location.href = '..animation.html';
     });
 });
