@@ -20,4 +20,7 @@ document.addEventListener('DOMContentLoaded', () => {
     formData.addEventListener('click', () => {
         window.location.href = '../form-data/formdata.html';
     });
+    animation.addEventListener('click', () => {
+        window.location.href = '../animations/animation.html';
+    });
 });

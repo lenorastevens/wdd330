@@ -1,0 +1,39 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.box {
+    border: 8px groove rgb(37, 37, 138);
+    padding: 10%;
+    background-color: beige;
+    border-radius: 15%;
+    animation: myanima 3s infinite alternate;
+}
+
+@keyframes myanima {
+    0% {
+        transform: matrix (1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
+        background-color: #abe;
+      }
+      25%{
+        transform: translate3d(12px, 50%, 3em);
+      }
+
+      50% {
+        transform: perspective(17px);
+        background-color: rgb(94, 104, 131);
+        color: #fff;
+      }
+      75% {
+        transform: perspective(500px) translate(10px, 0, 20px) rotateY(3deg);
+      }
+
+      100% {
+        transform: rotate3d(1, 2, 3, 10deg);
+        background-color: rgb(235, 237, 243);
+      }
+}
