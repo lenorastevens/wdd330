@@ -19,6 +19,7 @@ section {
 
 section:hover {
     transform: rotate3d(1, 2, 3, 5deg);
+    cursor: pointer;
 }
 
 section::selection {

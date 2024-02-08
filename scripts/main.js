@@ -5,6 +5,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const submitForm = document.getElementById('submit-form');
     const formData = document.getElementById('form-data');
     const animation = document.getElementById('animation');
+    const geolocation = document.getElementById('geolocation');
 
 
     prophetSection.addEventListener('click', () => {
@@ -24,5 +25,8 @@ document.addEventListener('DOMContentLoaded', () => {
     });
     animation.addEventListener('click', () => {
         window.location.href = 'animation.html';
+    });
+    geolocation.addEventListener('click', () => {
+        window.location.href = 'geolocation.html';
     });
 });
