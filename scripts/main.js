@@ -6,6 +6,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const formData = document.getElementById('form-data');
     const animation = document.getElementById('animation');
     const geolocation = document.getElementById('geolocation');
+    const smiles = document.getElementById('canvas');
 
 
     prophetSection.addEventListener('click', () => {
@@ -29,4 +30,7 @@ document.addEventListener('DOMContentLoaded', () => {
     geolocation.addEventListener('click', () => {
         window.location.href = 'geolocation.html';
     });
+    smiles.addEventListener('click', () => {
+        window.location.href = 'canvas.html';
+    })
 });
